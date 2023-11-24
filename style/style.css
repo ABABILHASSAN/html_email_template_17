@@ -1,0 +1,498 @@
+/* font family link here... */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+
+
+
+*{
+        font-family: 'Nunito', sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        text-decoration: none;
+        outline: none;
+        border: none;
+        text-transform: capitalize;
+        transition: all .2s linear;
+}
+
+
+
+html{
+        font-size: 62.5%;
+        overflow-x: hidden;
+        scroll-padding-top: 5.5rem;
+        scroll-behavior: smooth;
+
+}
+
+
+body{
+        background-color: #d8dbdb;
+        max-width: 991px;
+        margin: 0 auto;
+        padding: 0 2%;
+}
+
+.section{
+        background: #fff;
+}
+
+
+.section h1{
+        font-size: 3rem;
+        text-align: center;
+        padding: 1rem 2%;
+        color: #6b6868;
+}
+
+
+/* header section starts */
+
+
+
+header{
+        position: relative;
+        background: url(../images/bg.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 600px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+
+.header_container{
+        width: 90%;
+        height: 90%;
+        background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.4));
+}
+
+
+.header_container .header_top{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 2rem;
+        padding: 2rem 7%;
+}
+
+
+.header_container .header_top .logo_area img{
+        width: 12rem;
+}
+
+
+.header_container .header_top .social_icons i{
+        margin-left: 1rem;
+        font-size: 2.5rem;
+        color: #fff;
+        height: 40px;
+        width: 40px;
+        background: linear-gradient(-45deg, deeppink, purple);
+        border-radius: 50%;
+        text-align: center;
+        line-height: 40px;
+        box-shadow: 2px 2px 5px #000;
+}
+
+.header_container .header_top .social_icons i:first-child{
+        margin-left: 0rem;
+}
+
+.header_container .header_top .social_icons i:hover{
+        color: black;
+        cursor: pointer;
+}
+
+
+.image{
+        position: absolute;
+        width: 55rem;
+        bottom: 0;        
+        right: 5%;      
+}
+
+.image img{
+        width: 100%;
+}
+
+.header_content{
+        margin-left: 7%;
+        margin-right: 2rem;
+}
+
+.header_content h1{
+        font-size: 3rem;
+        font-weight: bolder;
+        color: #fff;
+        border-left: 5px solid #ffa000;
+        padding-left: 1rem;
+}
+
+.header_content p{
+        font-size: 1.5rem;
+        color: #fff;
+        margin-top: 1.5rem;
+}
+
+.header_content button{
+        padding: 1rem;
+        background: transparent;
+        border: 1px solid #ffa000;
+        color: #fff;
+        outline: none;
+        border-radius: 8px;
+        margin-top: 2rem;
+        font-size: 2rem;
+        font-weight: bold;
+}
+
+.header_content button:hover{
+        color: #ffa000;
+        cursor: pointer;
+}
+
+
+/* header section Ends */
+
+
+
+/* benefits section starts */
+
+.benefit_container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+        flex-wrap: wrap;
+        padding: 2rem 2rem;
+}
+
+.benefit_container .text{
+        font-size: 1.5rem;
+        color: #000;
+        text-align: justify;
+        margin-top: 2rem;
+}
+
+.benefit_container p span{
+        font-weight: bold;
+}
+
+.benefit_container .box{
+        display: flex;
+        align-items: center;
+        width: 100%;
+}
+
+.benefit_container .box .icon i{
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        background: #cce0dc;
+        text-align: center;
+        color: #6DBE41;
+        border-radius: 8px;
+        font-size: 2rem;
+        margin-right: 2rem;
+}
+
+.benefit_container .box p{
+        font-size: 2rem;
+        color: #000;
+}
+
+
+/* benefits section Ends */
+
+
+/* table-one section Starts */
+
+.table_container .button{
+        display: flex;
+        align-items: center;
+        justify-content: end;
+}
+
+.table_container .button button{
+        background: #6DBE41;
+        margin: 2rem 0;
+        text-decoration: underline;
+        font-size: 1.5rem;
+        padding: 1rem;
+}
+
+
+.table{
+        border-collapse: collapse;
+        width: 100%;
+}
+      
+.table td, .table th{
+        font-size: 15px;
+        border-top: 1px solid #ddd;
+        padding: 8px;
+}
+
+.table tr:last-child{
+        font-weight: bold;
+}
+      
+.table tr:nth-child(even){
+        background-color: #f2f2f2;
+}
+      
+.table tr:hover{
+        background-color: #ddd;
+}
+      
+.table th{
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: left;
+        background-color: #6DBE41;
+        border-top: 1px solid #000;
+        color: white;
+}
+
+
+/* table-one section Ends */
+
+/* table-two section Starts */
+
+#section{
+        background: #3299BA;
+        
+}
+
+#section img{
+        width: 100%;
+}
+
+#section .table_container_two{
+        padding: 5rem 5rem 0 5rem;
+}
+
+.table_two{
+        border-collapse: collapse;
+        width: 100%;
+}
+      
+.table_two td, .table_two th{
+        font-size: 15px;
+        border-top: 1px solid #ddd;
+        border-bottom: 1px solid #ddd;
+        padding: 8px;
+        color: #fff;
+}
+
+.table_two tr:last-child{
+        font-weight: bold;
+}
+      
+.table_two th{
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: left;
+        background-color: #6DBE41;
+        border-top: 1px solid #000;
+        color: white;
+}
+
+/* table-two section Ends */
+
+
+
+/* video section starts */
+
+.video{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 4rem;
+}
+
+video{
+        width: 80%;
+        height: auto;
+}
+
+.bottom h3{
+        color: #6b6868;
+        padding: 0 5rem;
+        font-size: 2.5rem;
+}
+
+.bottom p{
+        color: #6b6868;
+        padding: 1.5rem 5rem;
+        font-size: 1.5rem;
+        
+}
+
+
+/* video section Ends */
+
+/* footer section starts */
+
+
+.footer{
+        background: #20293C;
+        padding: .5rem 2rem;
+}
+
+.footer .container{
+        text-align: center;
+}
+
+.footer .container a{
+        color: #fff;
+        font-size: 2.5rem;
+}
+
+.footer .container a:hover{
+        text-decoration: underline;
+        cursor: pointer;
+}
+
+.footer .container .social_icons{
+        padding: 2rem 1rem;
+}
+
+.footer .container .social_icons i{
+        margin-left: 1rem;
+        font-size: 2rem;
+        color: #fff;
+        height: 35px;
+        width: 35px;
+        background: linear-gradient(-45deg, deeppink, purple);
+        border-radius: 50%;
+        text-align: center;
+        line-height: 35px;
+        box-shadow: 2px 2px 5px #000;
+}
+
+.footer .container .social_icons i:first-child{
+        margin-left: 0rem;
+}
+
+.footer .container .social_icons i:hover{
+        color: black;
+        cursor: pointer;
+}
+
+
+
+
+
+/* footer section Ends */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media queries starts */
+
+
+@media (max-width: 768px){
+
+        html{
+                font-size: 50%;
+        
+        }
+
+        .header_container .header_top{
+                display: block;
+                text-align: center;
+                padding: .5rem 2%;
+        }
+
+        .header_container .header_top .social_icons{
+                margin-bottom: 3rem;
+        }
+
+        /* header section Ends */
+
+        .table td, .table th{
+                font-size: 12px;
+                border-top: 1px solid #ddd;
+                padding: 8px 2px;
+        }
+
+        .table th{
+                border-top: 1px solid #000;
+        }
+
+
+        #section .table_container_two{
+                padding: 3rem 3rem 0 3rem;
+        }
+
+
+        .table_two td, .table_two th{
+                font-size: 12px;
+                border-top: 1px solid #ddd;
+                padding: 8px 2px;
+        }
+
+}
+
+@media (max-width: 500px){
+        .image{
+                width: 93%;
+                left: 3%;
+                right: 2%;
+                bottom: 0;             
+        }
+
+        .header_content h1{
+                font-size: 2.5rem;
+        }
+
+        .header_container .header_top .social_icons i{
+                font-size: 2rem;
+                height: 35px;
+                width: 35px;
+                line-height: 35px;
+        }
+
+        .header_container .header_top .social_icons{
+                margin-bottom: 2rem;
+        }
+
+
+        /* header section Ends */
+
+        .table td, .table th{
+                font-size: 10px;
+        }
+
+        #section .table_container_two{
+                padding: 1rem 1rem 0 1rem;
+        }
+
+        .table_two td, .table_two th{
+                font-size: 10px;
+        }
+
+
+
+
+
+}
+
+/* media queries ends */
